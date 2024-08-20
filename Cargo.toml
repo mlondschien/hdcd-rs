@@ -13,7 +13,7 @@ exclude = ["/.github", "/changeforest-py", "/changeforest-r", "/testdata", ".pre
 name = "changeforest"
 
 [dependencies]
-ndarray = "0.15"
+ndarray = "0.16"
 rand = "0.8"
 biosphere = "0.3.0"
 
@@ -21,6 +21,6 @@ biosphere = "0.3.0"
 rstest = "0.19"
 assert_approx_eq = "1.1"
 ndarray-rand = "0.14"
-ndarray = { version = "0.15", features = ["approx"] }
+ndarray = { version = "0.16", features = ["approx"] }
 ndarray-csv = "^0.5"
 csv = "^1"
